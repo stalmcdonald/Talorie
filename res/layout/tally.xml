@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#f8ce5c">
+    
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Calories"
+        android:textColor="#fff"
+        android:inputType="number"
+        android:layout_gravity="center" >
+
+        <requestFocus />
+    </EditText>
+
+     <Button
+         android:id="@+id/calorieBttn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/editText1"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/tally_small"
+         android:text="Enter"
+         android:textColor="#FFF" />
+
+     <TextView
+         android:id="@+id/discountTable"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:text="@string/calorie_tips"
+         android:textColor="#000" />
+
+     <Button
+         android:id="@+id/browseBttn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="14dp"
+         android:background="@drawable/tally"
+         android:text="Calculate BMR"
+         android:textColor="#fff" />
+
+</RelativeLayout>

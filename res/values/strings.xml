@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Talorie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="about">   Hi! Welcome to Talorie. Our app combines all the beneficial qualities of a workout companion just for you.      \n  \n The application includes "Picture Progress" ablilities as well as a place to track calories and water intake.  We know you are busy so we included a training guide with target body exercises. These exercises are perfect to do at your desk.  \n \n  Taking small breaks during work and doing simple exercises will improve your mobility.      Start today! </string>
+
+    <string name="calorie_tips"> 1. Read Your Food Labels \n Food labels will tell you exactly how many calories, carbohydrate, protein and fat are in the foods you’re eating. The trick is to first look at the portion size on the top of the food label to know how much of the food contains the calories listed. Also keep track of how many portions you’re eating. For example if a portion size is one slice of bread and you eat a sandwich made of two slices, you’ll have to double the calories listed on the label. \n \n \n  2. Know Your Portion Sizes \n  Be as specific as possible when recording food and pay close attention to food labels.</string>
+</resources>

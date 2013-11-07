@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/excerciseBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/calcCalBttn"
+        android:layout_alignBottom="@+id/calcCalBttn"
+        android:layout_toLeftOf="@+id/aboutBttn"
+        android:background="@drawable/weights" />
+
+    <Button
+        android:id="@+id/calcCalBttn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/aboutBttn"
+        android:background="@drawable/waterbottle" />
+
+    <Button
+        android:id="@+id/aboutBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/calcCalBttn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/info" />
+
+    <Button
+        android:id="@+id/picProgressBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/excerciseBttn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/camera" />
+
+</RelativeLayout>

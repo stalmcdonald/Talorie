@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5d5d5d" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/breakfasttv"
+            android:layout_width="168dp"
+            android:layout_height="45dp"
+            android:text="Breakfast: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/lunchtv"
+            android:layout_width="168dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Lunch: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/dinnertv"
+            android:layout_width="168dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Dinner: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/snacktv1"
+            android:layout_width="168dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Snack 1: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/snacktv2"
+            android:layout_width="168dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Snack 2: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/tallytv"
+            android:layout_width="168dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="23dp"
+            android:text="Total Calories"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/breakfastbutton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/calorie"
+            android:textColor="#252333" />
+
+        <Button
+            android:id="@+id/lunchbutton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/calorie"
+            android:textColor="#252333" />
+
+        <Button
+            android:id="@+id/dinnerbutton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/calorie"
+            android:textColor="#252333" />
+
+        <Button
+            android:id="@+id/snackbutton1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/calorie"
+            android:textColor="#252333" />
+
+        <Button
+            android:id="@+id/snackbutton2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/calorie"
+            android:textColor="#252333" />
+
+        <Button
+            android:id="@+id/calcbutton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/tally_small"
+            android:text=" = "
+            android:textColor="#252333" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cupwater1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater1"
+        android:layout_alignBottom="@+id/cupwater1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater1"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater2"
+        android:layout_alignBottom="@+id/cupwater2"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater2"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater3"
+        android:layout_alignBottom="@+id/cupwater3"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater3"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater5"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater6"
+        android:layout_alignBottom="@+id/cupwater6"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater6"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater6"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater4"
+        android:layout_alignBottom="@+id/cupwater4"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater4"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater7"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater5"
+        android:layout_alignBottom="@+id/cupwater5"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater5"
+        android:background="@drawable/water" />
+
+    <CheckBox
+        android:id="@+id/cupwater8"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@+id/cupwater7"
+        android:layout_alignBottom="@+id/cupwater7"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cupwater7"
+        android:background="@drawable/water" />
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:text="Calories"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F4821F" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cupwater2"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="10dp"
+        android:text="Tally per 8 oz Glasses of Water"
+        android:textColor="#F4821F" />
+
+</RelativeLayout>
