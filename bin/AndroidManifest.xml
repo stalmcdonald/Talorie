@@ -45,6 +45,7 @@
         <activity android:name=".TotalBodyActivity" />
         <activity android:name=".ContactActivity" />
         <activity android:name=".TalorieInfo" />
+        <activity android:name=".LegActivity" />
     </application>
 
 </manifest>

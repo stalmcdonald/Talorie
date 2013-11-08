@@ -18,26 +18,27 @@ public final class R {
         public static final int exercise=0x7f020004;
         public static final int ic_launcher=0x7f020005;
         public static final int info=0x7f020006;
-        public static final int picture_progress_placeholder=0x7f020007;
-        public static final int splash=0x7f020008;
-        public static final int tally=0x7f020009;
-        public static final int tally_small=0x7f02000a;
-        public static final int total_body_placeholder=0x7f02000b;
-        public static final int water=0x7f02000c;
-        public static final int waterbottle=0x7f02000d;
-        public static final int weights=0x7f02000e;
+        public static final int leg_exercise=0x7f020007;
+        public static final int picture_progress_placeholder=0x7f020008;
+        public static final int splash=0x7f020009;
+        public static final int tally=0x7f02000a;
+        public static final int tally_small=0x7f02000b;
+        public static final int total_body_placeholder=0x7f02000c;
+        public static final int water=0x7f02000d;
+        public static final int waterbottle=0x7f02000e;
+        public static final int weights=0x7f02000f;
     }
     public static final class id {
         public static final int Note=0x7f070018;
         public static final int aboutBttn=0x7f07001c;
-        public static final int abouttalorie=0x7f070023;
+        public static final int abouttalorie=0x7f070024;
         public static final int breakfastbutton=0x7f07000a;
         public static final int breakfasttv=0x7f070004;
         public static final int browseBttn=0x7f070021;
         public static final int calcCalBttn=0x7f07001b;
         public static final int calcbutton=0x7f07000f;
         public static final int calorieBttn=0x7f07001f;
-        public static final int contactus=0x7f070022;
+        public static final int contactus=0x7f070023;
         public static final int cupwater1=0x7f070010;
         public static final int cupwater2=0x7f070011;
         public static final int cupwater3=0x7f070012;
@@ -53,6 +54,7 @@ public final class R {
         public static final int excerciseBttn=0x7f07001a;
         public static final int imageView1=0x7f070001;
         public static final int imageView2=0x7f070019;
+        public static final int legsBttn=0x7f070022;
         public static final int linearLayout1=0x7f070003;
         public static final int lunchbutton=0x7f07000b;
         public static final int lunchtv=0x7f070005;
@@ -71,10 +73,11 @@ public final class R {
         public static final int contact=0x7f030002;
         public static final int info=0x7f030003;
         public static final int launch=0x7f030004;
-        public static final int main=0x7f030005;
-        public static final int picture_progress=0x7f030006;
-        public static final int tally=0x7f030007;
-        public static final int target_body=0x7f030008;
+        public static final int leg=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int picture_progress=0x7f030007;
+        public static final int tally=0x7f030008;
+        public static final int target_body=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f060000;

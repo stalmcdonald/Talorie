@@ -12,4 +12,14 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/total_body_placeholder" />
 
+    <Button
+        android:id="@+id/legsBttn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="182dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/transparent" />
+
 </RelativeLayout>
