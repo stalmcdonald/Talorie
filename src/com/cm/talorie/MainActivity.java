@@ -8,7 +8,9 @@
 package com.cm.talorie;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +19,11 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-
+	//global variables
+		String stopStart;
+		MediaPlayer mediaPlay;
+		Button SS;
+		Context _context;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -70,6 +76,35 @@ public class MainActivity extends Activity {
 						startActivity(intent);
 					}
 				});
+				
+				//set context
+				_context = this;
+				
+				//add music/sound to media player
+				mediaPlay = MediaPlayer.create(MainActivity.this, R.raw.talorieinfo);
+				
+				//Set button
+				SS = (Button) findViewById(R.id.audioBttn);
+				stopStart = "Play";
+				
+				//start button 1 listener
+				SS.setOnClickListener(new OnClickListener(){
+					@Override
+					public void onClick(View v){
+						//starting and stopping the audio
+						if(stopStart.equals("Play")){
+							mediaPlay.start();
+							stopStart = "Pause";
+							SS.setText(stopStart);
+						}else {
+							mediaPlay.pause();
+							stopStart = "Play";//changes text back to play
+							SS.setText(stopStart);					
+						}
+					}
+					
+				});
+				
 				
 	}//end onCreate
 

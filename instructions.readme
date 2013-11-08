@@ -1,0 +1,5 @@
+Download and run on Android phone. 
+For optimal results run project on  Nexus 4. 
+
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" 
